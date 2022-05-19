@@ -1,0 +1,20 @@
+spring:  
+  datasource:
+    url: jdbc:h2:mem:userdb
+    username: admin
+    password: admin
+    driver-class-name: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+  sql:
+    init:
+      mode: always
+  h2:
+    console:
+      enabled: true
+      path: /manager
+
+server:
+  port: 8084
