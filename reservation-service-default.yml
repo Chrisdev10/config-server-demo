@@ -4,4 +4,4 @@ rabbitmq:
    password: guest
    port: 5672
 server:
-  port: 8082
+  port: 8089
